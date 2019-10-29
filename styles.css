@@ -5,22 +5,24 @@ body {
 
 #app {
   position  : absolute;
-  display   : flex;
+  display   : grid;
   flex-flow : column;
   top       : 5px;
   left      : 5px;
   bottom    : 5px;
   right     : 5px;
   background: #eee;
+  grid: "t" 1fr "c" max-content "b" 1fr;
 }
 
-#header {
-  font-size  : 18px;
-  font-weight: bold;
-  padding    : 6px;
+#bg {
+  grid-area:c;
+  margin:0 auto;
+  display:inline-block;
+  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAADklEQVQIW2NgQAXGZHAAGioAza6+Hk0AAAAASUVORK5CYII=);
+  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQIW2NgYGB4z4AAFUhsFAG4IsICMIBiLgBmEQcEyASpFQAAAABJRU5ErkJggg==);
 }
 
-#editor {
-  flex  : 1 1 0;
-  resize: none;
+#viewer {
+  object-fit:contain;
 }

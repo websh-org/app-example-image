@@ -1,23 +1,24 @@
 {
   "version": "0.2.0",
-  "description": "Vanilla Example App For WebShell",
+  "description": "Image Example App For WebShell",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/websh-org/template-app-vanilla.git"
+    "url": "git+https://github.com/websh-org/app-example-image.git"
   },
   "keywords": [
     "webshell",
     "app"
   ],
   "scripts": {
-    "start": "npx http-server ."
+    "start": "npx http-server .",
+    "dev": "npx http-server -c0 ."
   },
   "author": "Zoran Obradović, Ljudmila.org",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/websh-org/template-app-vanilla/issues"
+    "url": "https://github.com/websh-org/app-example-image/issues"
   },
-  "homepage": "https://websh.org/packages/template-app-vanilla/",
+  "homepage": "https://websh.org/packages/app-example-image/",
   
   "dependencies": {
   },
