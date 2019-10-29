@@ -12,9 +12,9 @@ WebShellApp
     "issues": "https://github.com/websh-org/app-example-image/issues",
     "api": {
       "file": {
-        "open": ["inage"],
+        "open": ["image"],
         "formats": {
-          "inage": {
+          "image": {
             "name": "Image File",
             "type": "image/png",
             "accept": "image/*",
